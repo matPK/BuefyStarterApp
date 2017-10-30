@@ -969,31 +969,19 @@ module.exports = __webpack_require__(38);
 
 /***/ }),
 /* 10 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_buefy__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_buefy___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_buefy__);
-
-/**
- * First we will load all of this project's JavaScript dependencies which
- * includes Vue and other libraries. It is a great starting point when
- * building robust, powerful web applications using Vue and Laravel.
- */
 
 __webpack_require__(11);
 
 window.Vue = __webpack_require__(34);
-
-
-Vue.use(__WEBPACK_IMPORTED_MODULE_0_buefy___default.a);
+window.Buefy = __webpack_require__(37);
 
 //Vue.component('example-component', require('./components/ExampleComponent.vue'));
 
-//const app = new Vue({
-//    el: '#app'
-//});
+var app = new Vue({
+    el: '#app'
+});
 
 /***/ }),
 /* 11 */
@@ -1010,7 +998,6 @@ window._ = __webpack_require__(12);
 
 try {
   window.$ = window.jQuery = __webpack_require__(14);
-  //require('bootstrap-sass');
 } catch (e) {}
 
 /**
